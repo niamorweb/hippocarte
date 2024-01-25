@@ -3,6 +3,7 @@ import content from "../../data/content/navbar/navbar.json";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Button from "../utilitary/buttons/Button";
 
 export default function Header() {
   const pathname = usePathname();
@@ -24,12 +25,17 @@ export default function Header() {
             </Link>
           ))}
         </div>
-        <Link
+        <Button
+          isIcon={true}
+          iconSide="right"
+          text={content.cta.not_connected}
+        />
+        {/* <Link
           className="py-3 text-base px-6 bg-main text-white font-semibold uppercase"
           href="/signin"
         >
           {content.cta.not_connected}
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );

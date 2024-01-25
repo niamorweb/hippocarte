@@ -12,7 +12,7 @@ export default function Input({
 }) {
   if (type === "select") {
     return (
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 w-full">
         <label className="font-medium" htmlFor={name}>
           {label}
         </label>
