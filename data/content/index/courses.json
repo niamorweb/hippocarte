@@ -1,0 +1,72 @@
+{
+  "courses": [
+    {
+      "image": {
+        "width": 200,
+        "height": 200,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "textContainer": {
+        "date": "15-17 Mai 2024",
+        "title": "Cardiologie Avancée : Nouvelles Stratégies et Technologies",
+        "paragraph": "Plongez dans le monde de la cardiologie avancée avec notre formation intensive de trois jours. Découvrez les dernières stratégies diagnostiques, les avancées technologiques et les meilleures..."
+      },
+      "prices": {
+        "newPrice": "450€",
+        "previousPrice": "500€"
+      }
+    },
+    {
+      "image": {
+        "width": 200,
+        "height": 200,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "textContainer": {
+        "date": "15-17 Mai 2024",
+        "title": "Cardiologie Avancée : Nouvelles Stratégies et Technologies",
+        "paragraph": "Plongez dans le monde de la cardiologie avancée avec notre formation intensive de trois jours. Découvrez les dernières stratégies diagnostiques, les avancées technologiques et les meilleures..."
+      },
+      "prices": {
+        "newPrice": "450€",
+        "previousPrice": "500€"
+      }
+    },
+    {
+      "image": {
+        "width": 200,
+        "height": 200,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "textContainer": {
+        "date": "15-17 Mai 2024",
+        "title": "Cardiologie Avancée : Nouvelles Stratégies et Technologies",
+        "paragraph": "Plongez dans le monde de la cardiologie avancée avec notre formation intensive de trois jours. Découvrez les dernières stratégies diagnostiques, les avancées technologiques et les meilleures..."
+      },
+      "prices": {
+        "newPrice": "450€",
+        "previousPrice": "500€"
+      }
+    },
+    {
+      "image": {
+        "width": 200,
+        "height": 200,
+        "alt": "",
+        "src": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "textContainer": {
+        "date": "15-17 Mai 2024",
+        "title": "Cardiologie Avancée : Nouvelles Stratégies et Technologies",
+        "paragraph": "Plongez dans le monde de la cardiologie avancée avec notre formation intensive de trois jours. Découvrez les dernières stratégies diagnostiques, les avancées technologiques et les meilleures..."
+      },
+      "prices": {
+        "newPrice": "450€",
+        "previousPrice": "500€"
+      }
+    }
+  ]
+}

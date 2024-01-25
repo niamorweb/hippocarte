@@ -1,0 +1,34 @@
+{
+  "infos": [
+    {
+      "type": "adresse",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "type": "Tel",
+      "content": "0413029348"
+    },
+    {
+      "type": "Email",
+      "content": "hippocarte@contact.com"
+    }
+  ],
+  "links": [
+    {
+      "link": "/",
+      "name": "Accueil"
+    },
+    {
+      "link": "/",
+      "name": "Les formations"
+    },
+    {
+      "link": "/",
+      "name": "A propos de nous"
+    },
+    {
+      "link": "/",
+      "name": "Faq"
+    }
+  ]
+}

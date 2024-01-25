@@ -1,0 +1,74 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Avancées récentes dans le traitement du cancer",
+    "description": "Cet article examine les dernières avancées dans le domaine du traitement du cancer, y compris les thérapies innovantes et les nouvelles approches médicales.",
+    "date": "2024-01-25",
+    "author": "Dr. Marie Dupont",
+    "category": "Oncologie",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "La recherche sur les vaccins contre les maladies infectieuses",
+    "description": "Une analyse approfondie des recherches actuelles sur les vaccins pour lutter contre les maladies infectieuses, mettant en lumière les progrès récents et les futurs développements.",
+    "date": "2024-01-26",
+    "author": "Prof. Jean Leclerc",
+    "category": "Immunologie",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Nouvelles approches chirurgicales en neurologie",
+    "description": "Découvrez les dernières avancées dans le domaine de la neurochirurgie, avec un accent sur les techniques chirurgicales innovantes et les traitements pour les troubles neurologiques.",
+    "date": "2024-01-27",
+    "author": "Dr. André Martin",
+    "category": "Neurologie",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Étude sur les effets positifs de l'exercice sur la santé mentale",
+    "description": "Une étude approfondie sur les bienfaits de l'exercice physique sur la santé mentale, mettant en évidence ses effets positifs sur la prévention des troubles psychologiques.",
+    "date": "2024-01-28",
+    "author": "Prof. Sophie Lambert",
+    "category": "Psychiatrie",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Dernières découvertes dans le domaine de la génomique médicale",
+    "description": "Explorez les récentes avancées dans le domaine de la génomique médicale, avec un aperçu des découvertes révolutionnaires et de leur impact sur la médecine personnalisée.",
+    "date": "2024-01-29",
+    "author": "Dr. Nicolas Renaud",
+    "category": "Génomique",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Approches innovantes pour la gestion de la douleur chronique",
+    "description": "Cet article examine les approches novatrices pour la gestion de la douleur chronique, mettant en avant les thérapies alternatives et les dernières recherches sur le sujet.",
+    "date": "2024-01-30",
+    "author": "Prof. Isabelle Leroux",
+    "category": "Analgésie",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "L'impact de la nutrition sur la santé cardiovasculaire",
+    "description": "Une analyse approfondie de l'impact de la nutrition sur la santé cardiovasculaire, mettant en évidence les choix alimentaires pour la prévention des maladies cardiaques.",
+    "date": "2024-01-31",
+    "author": "Dr. Philippe Dubois",
+    "category": "Cardiologie",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Technologies émergentes en médecine diagnostique",
+    "description": "Découvrez les dernières technologies émergentes utilisées en médecine diagnostique, offrant des méthodes plus rapides et précises pour identifier les maladies.",
+    "date": "2024-02-01",
+    "author": "Prof. Olivier Boucher",
+    "category": "Diagnostic médical",
+    "profilePicture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

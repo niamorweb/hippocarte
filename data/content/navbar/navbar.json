@@ -1,0 +1,25 @@
+{
+  "websiteName": "Hippocarte",
+  "nav": [
+    {
+      "name": "Accueil",
+      "link": "/"
+    },
+    {
+      "name": "Formations",
+      "link": "/formations"
+    },
+    {
+      "name": "Congrès",
+      "link": "/congres"
+    },
+    {
+      "name": "Blogs",
+      "link": "/blogs"
+    }
+  ],
+  "cta": {
+    "connected": "Mon Compte",
+    "not_connected": "M'identifier"
+  }
+}

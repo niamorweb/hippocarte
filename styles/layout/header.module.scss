@@ -1,0 +1,62 @@
+.header {
+  z-index: 40;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 10px 20px;
+  background: var(--color_bg);
+
+  &_website_name {
+    color: var(--color_main);
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: var(--container-max-size);
+  }
+  &_group_logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  &_links_group {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+
+  &_link_active {
+    color: var(--color_secondary);
+  }
+
+  &_link {
+    font-weight: 500;
+    transition: 0.2s;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &_cta {
+    padding: 20px 40px;
+    background-color: var(--color_main);
+    border: none;
+    color: var(--color_white);
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: var(--color_white);
+      outline: 2px solid var(--color_main);
+      color: var(--color_main);
+    }
+  }
+}

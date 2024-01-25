@@ -1,0 +1,63 @@
+.whoweare {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+
+  &_img {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  &_elem_group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &_elem_text {
+    flex: 1;
+  }
+
+  &_right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+  }
+
+  &_elem {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  &_icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  &_cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color_main);
+    font-weight: bold;
+    width: fit-content;
+    align-self: flex-start;
+    transition: 0.2s;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    span {
+      color: inherit;
+    }
+
+    svg {
+      width: 20px;
+    }
+  }
+}

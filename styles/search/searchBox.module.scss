@@ -1,0 +1,167 @@
+.searchPage {
+  background-color: #f6f6f6;
+}
+
+.search_box {
+  height: 100%;
+
+  &_container {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 4px 0px rgba(210, 230, 228, 0.57);
+    padding: 50px 25px;
+    background: var(--color_white);
+    width: 350px;
+    height: fit-content;
+  }
+
+  &_line {
+    width: 55.01px;
+    height: 1px;
+    background: var(--color_lightGrey);
+    margin: auto;
+  }
+
+  &_cta {
+    width: 100%;
+    background: var(--color_main);
+    color: var(--color_white);
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+}
+
+.container {
+  max-width: var(--container-max-size);
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container_courses {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.course {
+  display: flex;
+  width: 100%;
+  height: 320px;
+
+  &_img {
+    width: 40%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  &_right {
+    padding: 20px;
+    background-color: var(--color_white);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &_right_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_organisme {
+    background-color: var(--color_main);
+    color: var(--color_white);
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+
+  &_container_badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &_badge {
+    background: #bff7e020;
+    text-transform: capitalize;
+    padding: 2px 12px;
+    color: var(--color_main);
+    font-weight: 600;
+  }
+
+  &_prices {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &_newPrice {
+    color: var(--color_secondary);
+    font-weight: 700;
+  }
+
+  &_previousPrice {
+    text-decoration: line-through;
+    color: var(--color_grey);
+  }
+  &_container_cta {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  &_cta {
+    align-self: self-end;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color_main);
+    font-weight: bold;
+    width: fit-content;
+    align-self: flex-start;
+    transition: 0.2s;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    span {
+      color: inherit;
+    }
+
+    svg {
+      width: 20px;
+    }
+  }
+}
+
+// course
+// course_right
+// course_right_header
+// course_organisme
+// course_prices
+// course_newPrice
+// newPrice
+// course_previousPrice
+// title
+// container_badges
+// badge

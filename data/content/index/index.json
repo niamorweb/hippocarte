@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": "Votre Portail pour le Développement Professionnel Continu",
+    "paragraph": "Découvrez une nouvelle façon de choisir et d'évaluer vos formations professionnelles de santé. Hippocarte, votre allié pour un développement professionnel continu simplifié.",
+    "cta": "Découvrir"
+  },
+  "firstSection": {
+    "title": "Formations Populaires",
+    "paragraph": "Découvrez les formations les plus populaires"
+  },
+  "secondSection": {
+    "title": "Questions Fréquentes",
+    "paragraph": "Des réponses claires aux questions fréquemment posées. Simplifiez votre expérience avec Hippocarte."
+  },
+  "thirdSection": {
+    "title": "Articles récents",
+    "paragraph": "Des réponses claires aux questions fréquemment posées. Simplifiez votre expérience avec Hippocarte."
+  },
+  "fourthSection": {
+    "title": "Qui Somme Nous ? ",
+    "paragraph": "Des réponses claires aux questions fréquemment posées. Simplifiez votre expérience avec Hippocarte."
+  }
+}

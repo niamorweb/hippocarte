@@ -1,0 +1,95 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  max-width: var(--container-max-size);
+  gap: 60px;
+
+  &_title {
+    color: #0b7077;
+  }
+
+  &_filters_group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &_filter {
+    padding: 10px 20px;
+    font-size: 12px;
+    outline: 2px solid var(--color_lightGrey);
+    color: var(--color_darkGrey);
+    border-radius: 5px;
+    background: transparent;
+
+    &_active {
+      background: var(--color_main);
+      color: var(--color_white);
+      outline: 2px solid var(--color_main);
+    }
+  }
+
+  &_cards_group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  &_card {
+    box-shadow: 2px 2px 2px #62626220;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &_text_container {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    &_img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &_date {
+      color: var(--color_grey);
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+    &_footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    &_prices {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    &_new_price {
+      color: var(--color_secondary);
+      font-weight: 700;
+    }
+
+    &_previous_price {
+      text-decoration: line-through;
+      color: var(--color_grey);
+    }
+
+    &_cta {
+      background-color: var(--color_main);
+      color: var(--color_white);
+      font-size: 12px;
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+  }
+}
