@@ -20,14 +20,14 @@ export default function Formations() {
       <div className="max-w-[1400px] flex flex-col gap-14 mx-auto items-center justify-center">
         <h2 className="">Toutes les formations</h2>
 
-        <div className="flex flex-col gap-14">
+        <div className="flex flex-col gap-14 px-5">
           <div className="w-full flex flex-col gap-6">
             <div className="w-full flex justify-between items-center">
               <div className="flex gap-4 items-center">
                 {[0, 1, 2, 3].map((item, index) => (
                   <button
                     onClick={() => setSpecialitySelected(index)}
-                    className={`rounded-3xl py-2 px-5 font-medium  ${
+                    className={`rounded-3xl text-sm py-2 px-5 font-medium  ${
                       specialitySelected === index
                         ? "bg-main text-white"
                         : "bg-neutral-400 bg-opacity-10 backdrop-blur-xl"
@@ -39,7 +39,7 @@ export default function Formations() {
               </div>
               <button
                 onClick={() => setIsFilterDisplay(!isFilterDisplay)}
-                className={`rounded-3xl py-2 px-5 flex gap-2 items-center font-medium ${
+                className={`rounded-3xl text-sm py-2 px-5 flex gap-2 items-center font-medium ${
                   isFilterDisplay
                     ? "bg-black text-white"
                     : "bg-neutral-400 bg-opacity-10 backdrop-blur-xl "
@@ -59,7 +59,7 @@ export default function Formations() {
                     d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
                   />
                 </svg>
-                <span>Plus de fitres</span>
+                <span className=" text-sm">Plus de fitres</span>
               </button>
             </div>
             {isFilterDisplay && (
