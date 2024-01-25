@@ -62,8 +62,11 @@ export default function Courses() {
         </div>
       </div> */}
       <div className="flex gap-10 items-center">
-        {[0, 2].map((item) => (
-          <div className="shadow-lg bg-white from-lightMain to-white duration-150 hover:bg-gradient-to-br rounded-xl flex flex-col gap-5 w-[350px] p-10 justify-start">
+        {[0, 2].map((item, index) => (
+          <div
+            key={index}
+            className="shadow-lg bg-white from-lightMain to-white duration-150 hover:bg-gradient-to-br rounded-xl flex flex-col gap-5 w-[350px] p-10 justify-start"
+          >
             <Image src="/icons/calendar.svg" width={80} height={80} alt="" />
             <span className={`text-xl font-bold ${baloo.className}`}>
               FORMATIONS E-LEARNING

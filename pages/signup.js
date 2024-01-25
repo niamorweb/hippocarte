@@ -1,7 +1,7 @@
 import Input from "@/components/utilitary/input";
 import React, { useState } from "react";
 
-export default function signup() {
+export default function Signup() {
   const [lastname, setLastname] = useState("");
   const [firstname, setFirstname] = useState("");
   const [email, setEmail] = useState("");

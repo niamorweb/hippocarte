@@ -5,8 +5,11 @@ export default function Advantages() {
   return (
     <section className=" bg-neutral-100">
       <div className="mx-auto max-w-[1100px] grid grid-cols-3 gap-8 -translate-y-[100px]">
-        {[0, 1, 2].map((elem) => (
-          <div className="w-full flex flex-col gap-2 shadow-lg p-10 rounded-md bg-white">
+        {[0, 1, 2].map((elem, index) => (
+          <div
+            key={index}
+            className="w-full flex flex-col gap-2 shadow-lg p-10 rounded-md bg-white"
+          >
             <div className="bg-main w-10 h-10 flex justify-center items-center rounded-full">
               <Image
                 className="w-5 h-5"

@@ -13,8 +13,8 @@ export default function blogs() {
       </div>
 
       <div className="max-w-[1400px] mx-auto flex flex-col gap-32 justify-center items-center">
-        {blogsData.slice(0, 1).map((blog) => (
-          <div className="flex gap-10">
+        {blogsData.slice(0, 1).map((blog, index) => (
+          <div key={index} className="flex gap-10">
             <Image
               className="w-3/5 rounded-xl h-[400px] object-cover "
               width={600}
@@ -52,8 +52,8 @@ export default function blogs() {
         ))}
 
         <div className="grid grid-cols-3 gap-16">
-          {blogsData.map((blog) => (
-            <div className="flex flex-col gap-6">
+          {blogsData.map((blog, index) => (
+            <div key={index} className="flex flex-col gap-6">
               <Image
                 className="rounded-xl w-full h-[200px] object-cover "
                 width={300}

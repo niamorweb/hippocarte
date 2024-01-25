@@ -52,8 +52,8 @@ export default function RecentsArticles() {
         </div> */}
 
         <div className="grid grid-cols-3 gap-16">
-          {blogsData.slice(0, 3).map((blog) => (
-            <div className="flex flex-col gap-6">
+          {blogsData.slice(0, 3).map((blog, index) => (
+            <div key={index} className="flex flex-col gap-6">
               <Image
                 className="rounded-xl w-full h-[200px] object-cover "
                 width={300}
