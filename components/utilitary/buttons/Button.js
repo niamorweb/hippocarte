@@ -10,7 +10,7 @@ export default function Button({
 }) {
   return (
     <button
-      className={`py-3 text-base px-6 bg-main font-semibold uppercase flex text-white items-center gap-2 ${
+      className={`py-3 text-base px-6 bg-main font-semibold uppercase flex text-white items-center w-fit gap-2 ${
         iconSide === "left" ? "flex-row-reverse" : "flex-row"
       }`}
     >

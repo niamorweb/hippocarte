@@ -11,15 +11,18 @@ export default function WhoWeAre() {
       title={content.fourthSection.title}
       paragraph={content.fourthSection.paragraph}
     >
-      <div className="flex gap-10 items-center" id="apropos">
+      <div
+        className="flex flex-col lg:flex-row gap-10 items-center"
+        id="apropos"
+      >
         <Image
           src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           width={300}
           height={300}
           alt=""
-          className="w-1/2"
+          className="lg:w-1/2"
         />
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <div className="flex flex-col gap-8">
             {whoWeAreData.elements.map((elem) => (
               <div className="flex gap-6 items-start">

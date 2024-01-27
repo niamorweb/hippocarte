@@ -9,10 +9,10 @@ const raleway = Raleway({ subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <section className="px-5 py-20 bg-neutral-100" id="home">
+    <section className="py-20" id="home">
       <div className="absolute top-2/3 right-40 w-[400px] h-[400px] blur-3xl bg-blue-200"></div>
       <div className="absolute top-1/4 right-72 w-[200px] h-[200px] blur-3xl bg-lightMain"></div>
-      <div className="max-w-[1400px] mx-auto flex  ">
+      <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row  ">
         <div className="z-20 flex flex-col gap-5 w-1/2 justify-start">
           <h1>{content.hero.title}</h1>
           <p>{content.hero.paragraph}</p>

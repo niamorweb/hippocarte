@@ -17,13 +17,13 @@ export default function Formations() {
 
   return (
     <section className="min-h-screen pt-[50px] pb-[100px]">
-      <div className="max-w-[1400px] flex flex-col gap-14 mx-auto items-center justify-center">
+      <div className="max-w-[1400px] flex flex-col gap-14 mx-auto md:items-center md:justify-center">
         <h2 className="">Toutes les formations</h2>
 
-        <div className="flex flex-col gap-14 px-5">
+        <div className="flex flex-col gap-14">
           <div className="w-full flex flex-col gap-6">
-            <div className="w-full flex justify-between items-center">
-              <div className="flex gap-4 items-center">
+            <div className="w-full flex flex-col md:flex-row md:justify-between items-start md:items-center">
+              <div className="flex gap-4 items-center overflow-auto py-4 md:py-0">
                 {[0, 1, 2, 3].map((item, index) => (
                   <button
                     onClick={() => setSpecialitySelected(index)}
@@ -82,7 +82,7 @@ export default function Formations() {
             )}
           </div>
 
-          <div className="grid grid-cols-3 gap-6 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
             {courses.courses.map((elem) => (
               <CardCourse
                 imgWidth={elem.image.width}

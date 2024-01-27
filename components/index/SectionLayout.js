@@ -5,7 +5,7 @@ export default function SectionLayout({ title, paragraph, children, bgColor }) {
   return (
     <section
       style={{ backgroundColor: bgColor }}
-      className="w-full flex justify-center px-5 py-[150px]"
+      className="w-full flex justify-center px-5 md:px-10 py-[150px]"
     >
       <div className="flex flex-col gap-20 max-w-[1400px]">
         <div className="flex flex-col items-center">

@@ -61,7 +61,7 @@ export default function Courses() {
           ))}
         </div>
       </div> */}
-      <div className="flex gap-10 items-center">
+      <div className="flex flex-col lg:flex-row gap-10 items-center">
         {[0, 2].map((item, index) => (
           <div
             key={index}

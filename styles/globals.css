@@ -58,7 +58,7 @@ button {
 
 html,
 body {
-  background: var(--color_white);
+  background: var(--color_bg);
 }
 
 a {

@@ -21,7 +21,7 @@ export default function Layout({ children }) {
         <>
           {" "}
           <Header />
-          <main>{children}</main>
+          <main className="px-5 md:px-10">{children}</main>
           <Footer />
         </>
       )}

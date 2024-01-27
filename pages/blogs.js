@@ -14,15 +14,18 @@ export default function blogs() {
 
       <div className="max-w-[1400px] mx-auto flex flex-col gap-32 justify-center items-center">
         {blogsData.slice(0, 1).map((blog, index) => (
-          <div key={index} className="flex gap-10">
+          <div
+            key={index}
+            className="flex flex-col md:flex-row gap-5 md:gap-10"
+          >
             <Image
-              className="w-3/5 rounded-xl h-[400px] object-cover "
+              className="md:w-3/5 rounded-xl h-[400px] object-cover "
               width={600}
               height={600}
               src={blog.image}
               alt=""
             />
-            <div className="w-2/5 flex flex-col justify-around h-full gap-6 py-14">
+            <div className="md:w-2/5 flex flex-col justify-around h-full gap-2 md:gap-6 md:py-14">
               <div className="flex gap-2 items-center text-red-500 font-semibold text-lg">
                 <span>{blog.category}</span>
                 <span> - </span>
@@ -51,7 +54,7 @@ export default function blogs() {
           </div>
         ))}
 
-        <div className="grid grid-cols-3 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {blogsData.map((blog, index) => (
             <div key={index} className="flex flex-col gap-6">
               <Image
