@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Advantages() {
   return (
     <section className="">
-      <div className="mx-auto max-w-[1100px] grid grid-cols-1 ld:grid-cols-3 gap-8 -translate-y-[100px]">
+      <div className="mx-auto max-w-[1100px] grid grid-cols-1 lg:grid-cols-3 gap-8 -translate-y-[100px]">
         {[0, 1, 2].map((elem, index) => (
           <div
             key={index}

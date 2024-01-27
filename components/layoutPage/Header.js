@@ -32,7 +32,7 @@ export default function Header() {
           text={content.cta.not_connected}
         />
       </nav>
-      <nav className="flex justify-between w-full mx-auto items-center h-fit">
+      <nav className="flex lg:hidden justify-between w-full mx-auto items-center h-fit">
         <span className="font-bold text-2xl text-black ">
           {content.websiteName}
         </span>
