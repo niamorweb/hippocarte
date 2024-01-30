@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute top-2/3 right-40 w-[400px] h-[400px] blur-3xl bg-blue-200"></div>
       <div className="absolute top-1/4 right-72 w-[200px] h-[200px] blur-3xl bg-lightMain"></div>
       <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row  ">
-        <div className="z-20 flex flex-col gap-5 w-1/2 justify-start">
+        <div className="z-20 flex flex-col gap-5 lg:w-1/2 justify-start">
           <h1>{content.hero.title}</h1>
           <p>{content.hero.paragraph}</p>
           <button className="mt-8 outline-2 outline outline-main text-main font-semibold text-lg w-fit px-6 py-2">
@@ -21,7 +21,7 @@ export default function Hero() {
             {content.hero.cta}
           </button>
         </div>
-        <div className="relative w-1/2">
+        <div className="relative lg:w-1/2">
           <div className="-z-10 w- w-[400px] h-[400px] absolute bottom-0"></div>
           <Image
             className="-z-20"

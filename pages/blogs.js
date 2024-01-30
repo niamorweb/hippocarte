@@ -1,6 +1,7 @@
 import React from "react";
 import blogsData from "../data/content/blogs/blogs.json";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function blogs() {
   return (
@@ -14,7 +15,8 @@ export default function blogs() {
 
       <div className="max-w-[1400px] mx-auto flex flex-col gap-32 justify-center items-center">
         {blogsData.slice(0, 1).map((blog, index) => (
-          <div
+          <Link
+            href="/blog/1"
             key={index}
             className="flex flex-col md:flex-row gap-5 md:gap-10"
           >
@@ -51,12 +53,12 @@ export default function blogs() {
                 </span>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {blogsData.map((blog, index) => (
-            <div key={index} className="flex flex-col gap-6">
+            <Link href="/blog/1" key={index} className="flex flex-col gap-6">
               <Image
                 className="rounded-xl w-full h-[200px] object-cover "
                 width={300}
@@ -90,7 +92,7 @@ export default function blogs() {
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

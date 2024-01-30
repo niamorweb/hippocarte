@@ -38,7 +38,7 @@ export default function Header() {
         </span>
         <button
           onClick={() => setIsMobileNavActive(!isMobileNavActive)}
-          className={`w-10 h-10  top-3 right-4 z-30 justify-center items-center ${
+          className={`w-10 h-10  top-3 right-4 z-50 justify-center items-center ${
             isMobileNavActive ? "fixed" : "absolute"
           }`}
         >
@@ -77,7 +77,7 @@ export default function Header() {
       </nav>
 
       {isMobileNavActive && (
-        <div className="fixed shadow-md w-3/4 py-20 px-5 bg-white gap-10 top-0 right-0 bottom-0 z-10 flex flex-col">
+        <div className="fixed z-40 shadow-md w-3/4 py-20 px-5 bg-white gap-10 top-0 right-0 bottom-0 flex flex-col">
           <div className="flex flex-col items-start gap-6">
             {content.nav.map((elem, index) => (
               <Link
