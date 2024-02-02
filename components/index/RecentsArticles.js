@@ -5,6 +5,7 @@ import articlesData from "../../data/content/index/articles.json";
 import Image from "next/image";
 import Link from "next/link";
 import blogsData from "../../data/content/blogs/blogs.json";
+import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 export default function RecentsArticles() {
   return (
@@ -13,44 +14,6 @@ export default function RecentsArticles() {
       paragraph={content.thirdSection.paragraph}
     >
       <div className="flex flex-col gap-20" id="articles">
-        {/* <div className="grid grid-cols-3 gap-6">
-          {articlesData.courses.slice(0, 3).map((article) => (
-            <div className="flex flex-col gap-3">
-              <h4>{article.textContainer.title}</h4>
-              <Image
-                className="w-full h-[170px] object-cover"
-                width={article.image.width}
-                height={article.image.height}
-                alt={article.image.alt}
-                src={article.image.src}
-              />
-              <div>
-                <p>{article.textContainer.paragraph}</p>
-              </div>
-              <Link
-                className="flex items-center gap-3 text-main hover:underline underline-offset-2"
-                href="/"
-              >
-                <span className="font-bold text-main">Voir Plus</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-4 h-4"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </Link>
-            </div>
-          ))}
-        </div> */}
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
           {blogsData.slice(0, 3).map((blog, index) => (
             <div key={index} className="flex flex-col gap-6">
@@ -95,20 +58,7 @@ export default function RecentsArticles() {
           href="/"
         >
           <span className="font-bold uppercase">Voir tous les blogs</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-4 h-4"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-            />
-          </svg>
+          <ArrowLongRightIcon className="w-6 h-6" />
         </Link>
       </div>
     </SectionLayout>

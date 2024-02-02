@@ -6,6 +6,7 @@ import { useState } from "react";
 import SectionLayout from "./SectionLayout";
 import { Baloo_2 } from "next/font/google";
 import Link from "next/link";
+import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 const baloo = Baloo_2({
   subsets: ["latin"],
@@ -84,20 +85,7 @@ export default function Courses() {
               <span className="text-main font-bold uppercase">
                 Voir les formations
               </span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-4 h-4"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                />
-              </svg>
+              <ArrowLongRightIcon className="w-6 h-6" />
             </Link>
           </div>
         ))}

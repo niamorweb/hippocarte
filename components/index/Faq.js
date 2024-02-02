@@ -3,6 +3,7 @@ import SectionLayout from "./SectionLayout";
 import content from "../../data/content/index/index.json";
 import faqData from "../../data/content/index/faq.json";
 import Link from "next/link";
+import { ArrowLongRightIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 export default function Faq() {
   const [questionSelected, setQuestionSelected] = useState([]);
@@ -28,22 +29,12 @@ export default function Faq() {
             className="cursor-pointer relative py-8 px-10 border-[1px] border-neutral-200 rounded-xl shadow-md  "
             onClick={() => handleClickQuestion(index)}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className={`absolute top-10 right-6 rotate-90 w-4 h-4 duration-200 ${
-                questionSelected.includes(index) && "rotate-[270deg]"
+            <ChevronUpIcon
+              className={`absolute top-10 right-6 w-4 h-4 duration-200 ${
+                questionSelected.includes(index) && "rotate-[180deg]"
               }`}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              />
-            </svg>
+            />
+
             <div
               className={`flex flex-col  ${
                 questionSelected.includes(index) && "gap-3"
@@ -65,20 +56,7 @@ export default function Faq() {
           href="/"
         >
           <span className="font-bold uppercase">Voir toutes les questions</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-4 h-4"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-            />
-          </svg>
+          <ArrowLongRightIcon className="w-6 h-6" />
         </Link>
       </div>
     </SectionLayout>

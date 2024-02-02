@@ -4,6 +4,10 @@ import Image from "next/image";
 import content from "../../data/content/index/index.json";
 import whoWeAreData from "../../data/content/index/whoWeAre.json";
 import Link from "next/link";
+import {
+  ArrowLongRightIcon,
+  CalendarDaysIcon,
+} from "@heroicons/react/24/solid";
 
 export default function WhoWeAre() {
   return (
@@ -26,20 +30,7 @@ export default function WhoWeAre() {
           <div className="flex flex-col gap-8">
             {whoWeAreData.elements.map((elem) => (
               <div className="flex gap-6 items-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-10 h-10"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"
-                  />
-                </svg>
+                <CalendarDaysIcon className="w-10 h-10" />
                 <p className="flex-1">{elem.text}</p>
               </div>
             ))}
@@ -51,20 +42,7 @@ export default function WhoWeAre() {
             <span className="text-main font-bold uppercase">
               En savoir plus
             </span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-4 h-4"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-              />
-            </svg>
+            <ArrowLongRightIcon className="w-6 h-6" />
           </Link>
         </div>
       </div>
